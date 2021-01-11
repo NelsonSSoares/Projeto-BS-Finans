@@ -26,7 +26,7 @@
         <nav class="navbar navbar-expand-sm navbar-light bg-warning">
           <div class="container">
             
-            <a href="#" class="navbar-brand">
+            <a href="#" class="navbar-brand"><!--Logo-->
               <img src="img/logo.png" width="142">
             </a>
   
@@ -37,16 +37,16 @@
             <div class="collapse navbar-collapse" id="nav-principal">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a href="" class="nav-link">Home</a>
+                  <a href="" class="nav-link text-light">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a href="" class="nav-link">Recursos</a>
+                  <a href="" class="nav-link text-light">Recursos</a>
                 </li>
                 <li class="nav-item">
-                  <a href="" class="nav-link">Benefícios</a>
+                  <a href="" class="nav-link text-light">Benefícios</a>
                 </li>
                 <li class="nav-item">
-                  <a href="" class="nav-link">Preços</a>
+                  <a href="" class="nav-link text-light">Preços</a>
                 </li>
                 <li class="nav-item">
                   <a href="" class="btn btn-outline-light ml-4">Entrar</a>
@@ -58,23 +58,45 @@
         </nav>
       </header><!--/fim Cabecalho -->
         
-      <section id="home">
+      <section id="home"><!-- Início seção home -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex"><!-- Textos da seção -->
+            <div class="align-self-center">
+              <h1 class="display-4">Suas contas, descomplicadas</h1>
+              <p>
+                Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira.
+              </p>
 
-        <div class="container">
-          <div class="row">
-            
-            <div class="col-md-6">
-              texto
+              <form class="mt-4 mb-4">
+                <div class="input-group input-group-lg">
+                  <input type="text" placeholder="Seu e-mail" class="form-control">
+                  <div class="input-group-append">
+                    <button type="button" class="btn btn-primary">Cadastre-se</button>
+                  </div>
+                </div>
+              </form>
+
+              <p>Disponível para
+                <a href="" class="btn btn-outline-light">
+                  <i class="fab fa-android fa-lg"></i>
+                </a>
+                <a href="" class="btn btn-outline-light">
+                  <i class="fab fa-apple"></i>
+                </a>
+              </p>
+
             </div>
+            </div><!--Fim da seção-->
 
-            <div class="col-md-6">
-              imagem
+            <div class="col-md-6 d-none d-md-block"><!--d-none remove a div e d-md-block faz a div parecer quando atigir o breakpoint medio-->
+              <img src="img/capa-mulher.png" >
             </div>
 
           </div>
         </div>
 
-      </section>
+      </section><!--Fim home-->
 
         
 
