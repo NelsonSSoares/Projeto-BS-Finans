@@ -1,4 +1,13 @@
-#home{
-    background: #ffc107;
-    color:white;
+#home{ /*ID*/
+    background: #ffc107;/*cor de fundo*/
+    color:white;/*cor de texto*/
+}
+
+.caixa{/*CLASS*/
+    padding: 60px 0; /*define espaçamento interno*/
+    border: 1px solid #e5e5e5; /*define cor de borda*/
+}
+
+footer p a{
+    margin: 5px 15px; /*define espaçamento externo vertical e horizontal
 }
